@@ -18,16 +18,15 @@ Operating System    	          Windows / Linux
 Command Prompt / Terminal	      For testing connectivity
 
 IP Address Configuration Example:
-Device	        IP Address      Subnet Mask
+Device	       IP Address      Subnet Mask
 PC1             192.168.1.1      255.255.255.0
-PC2             192.168.1.2	     255.255.255.0
+PC2             192.168.1.2	   255.255.255.0
 
 Steps:
 1) Connect both PCs using the cross cable through Ethernet ports.
 2) On each PC:
-     a)Go to Network Settings → Change Adapter Options.
-     b)Right-click on Ethernet → Properties → IPv4 Settings.
-     c)Manually assign IP addresses as shown above.
+     a)Click on PC → Desktop → IP Configuration
+     b)Manually assign IP addresses as shown above.
 3) After assigning IPs, open Command Prompt (Windows) or Terminal (Linux).
 4) Use the command:
     ping 192.168.1.2     (from PC1 to PC2)
